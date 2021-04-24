@@ -12,5 +12,7 @@ namespace WebParcial2_EmilyRoss.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<WebParcial2_EmilyRoss.Models.Friend> Friends { get; set; }
     }
 }
